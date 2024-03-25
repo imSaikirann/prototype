@@ -9,6 +9,7 @@ import Top from "./components/Top"
 import Navbar from './components/Navbar';
 import Fabric from './components/Fabric';
 
+
 function App() {
   return (
     <ChakraProvider>
@@ -21,7 +22,9 @@ function App() {
           <Route path='/customize' element={<Custum />} />
           <Route path='/fab' element={<Fabric/>}></Route>
         </Routes>
+     
       </Router>
+
     </ChakraProvider>
   );
 }
